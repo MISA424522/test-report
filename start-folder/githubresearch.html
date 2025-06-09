@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>お問い合わせ</title>
+        <link rel="stylesheet" href="css/style.css">
+
+         <style>
+          h1{
+            background-color:rgb(9, 157, 9);
+             color:white;
+             font-size: 50px;
+             margin: 0auto;text-align:center;
+             padding: 10px;
+            }
+          .nav-list{
+            font-size: 30px;
+            list-style: none;
+            padding: 10;
+            text-align: center;
+            display:inline;
+           margin: 0 50px;
+          } 
+          .nav-list li{
+            display: inline-block;
+          }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>お問い合わせ</h1>
+            <nav>
+                <ul class="nav-list">
+                     <li><a href="../index.html">ホーム</a></li>
+                    <li><a href="start-folder/contact.html">お問い合わせ</a></li>
+                    <li><a href="work.html">課題</a></li>
+                    <li><a href="calculate.html">電卓</a></li>
+                    <li><a href="githubresearch.html">GitHub検索</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="contact-form">
+                <h2>GitHubユーザー情報を取得しよう</h2>
+                <input type="text" id="username" placeholder="GitHubユーザー名を入力" />
+                <button id="searchBtn">検索</button>
+
+                <div id="=result"></div>
+
+                <script src="=../start-folder/JavaScriptWork/githubresearch.js"></script>     
+        </main>
+
+        <style>
+            main{margin: 0auto;text-align:center;}
+        </style>
+        <footer><form action="#" method="POST">
+            <p>&copy; 2025 私のポートフォリオ</p>
+        </footer>
+    </body>
+
+</html>
